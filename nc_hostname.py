@@ -65,7 +65,7 @@ def edit_value(m):
     
 
 if __name__ == '__main__':
-  with csr_connect(host='ios-xe-mgmt.cisco.com', port=10000, user='developer', password='C1sco12345') as m:
+  with csr_connect(host='10.10.20.48', port=830, user='cisco1', password='cisco1') as m:
     get_name(m)  
     
 
