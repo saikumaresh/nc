@@ -51,7 +51,7 @@ def get_name(m):
   print("Hostname :")
   print(hostname)
   print("\n")
-  if(hostname=="csr1000v"):
+  if(hostname=="csr1000v-1"):
     edit_value(m)
 
 
