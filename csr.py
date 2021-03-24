@@ -114,4 +114,4 @@ def test_csr(host, user, password):
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
-    test_csr(sys.argv[1], sys.argv[2], sys.argv[3])
+    test_csr('10.10.20.48','cisco1','cisco1')
