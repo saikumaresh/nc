@@ -56,10 +56,11 @@ def get_name(m):
 
 
 def edit_value(m):
-    xmlDom = xml.dom.minidom.parseString( str( m.edit_config(data, target='running') ) )
+    #xmlDom = xml.dom.minidom.parseString( str( m.edit_config(data, target='running') ) )
     # xpath
     #xmlDom = xml.dom.minidom.parseString( str( m.get_config( source='running', filter=('xpath', '/native/hostname')))) 
-    print (xmlDom.toprettyxml( indent = "  " ))
+    #print (xmlDom.toprettyxml( indent = "  " ))
+    m.edit_config(data, target='running')
     print("Name Changed!\n")
     
 
